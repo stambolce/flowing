@@ -18,6 +18,18 @@
 
 ---
 
+## Security and Email Intelligence / Безбедност и е-пошта
+
+FLOWING connects domain diagnostics with website reputation, mail configuration and remediation. Its **Google Web Risk integration** checks known unsafe-URL signals related to malware, phishing and unwanted software. A clean reputation lookup does not certify a virus-free server.
+
+**Core operational checks:** DNS records (including MX), HTTP/HTTPS availability, redirects, TLS certificate validity and hostname checks, evidence history and manual review.
+
+**Broader diagnostic roadmap:** IP blacklist and sender reputation, SPF/DKIM/DMARC alignment, SMTP connectivity and delivery verification, deeper website malware investigation, WordPress/CMS security indicators and performance diagnostics. These capabilities must be verified individually before being advertised as live.
+
+**MK:** FLOWING опфаќа Google Web Risk сигнали за злонамерни URL адреси, phishing и несакан софтвер, како и DNS, MX, HTTP/HTTPS, SSL/TLS и технички докази. Следните области за проширување се IP blacklist и репутација, SPF/DKIM/DMARC, SMTP функционалност, подетални проверки за заразени веб-страници, CMS/WordPress и перформанси. **MX запис не гарантира успешна испорака на е-пошта; Web Risk проверка не е серверски антивирус.**
+
+---
+
 ## EN · Domain Intelligence & Website Health
 
 **[FLOWING.mk](https://flowing.mk)** is a domain intelligence and website health analysis platform developed by **[PROCESS IN](https://processin.mk)**. It brings together technical checks, recorded evidence and human review to identify potential website and domain configuration issues and turn them into understandable recommendations.
