@@ -18,15 +18,39 @@
 
 ---
 
-## Security and Email Intelligence / Безбедност и е-пошта
+## FLOWING Platform / Платформски можности
 
-FLOWING connects domain diagnostics with website reputation, mail configuration and remediation. Its **Google Web Risk integration** checks known unsafe-URL signals related to malware, phishing and unwanted software. A clean reputation lookup does not certify a virus-free server.
+FLOWING is a **domain-to-decision intelligence platform**: discovery, technical inspection, evidence, risk assessment, business intelligence and practical remediation. Security and email diagnostics are **two capabilities within a much broader platform**, not the product's definition.
 
-**Core operational checks:** DNS records (including MX), HTTP/HTTPS availability, redirects, TLS certificate validity and hostname checks, evidence history and manual review.
+### Platform capability map
 
-**Broader diagnostic roadmap:** IP blacklist and sender reputation, SPF/DKIM/DMARC alignment, SMTP connectivity and delivery verification, deeper website malware investigation, WordPress/CMS security indicators and performance diagnostics. These capabilities must be verified individually before being advertised as live.
+| Product area | Scope |
+|---|---|
+| **Domain Discovery & Registry Intelligence** | Domain inventories, MARNET datasets, certificate-transparency discovery, zone-file imports, source reconciliation, deduplication and registration context |
+| **Domain Lifecycle & Monitoring** | Newly discovered domains, registration verification, expiration-related signals, change history and ongoing monitoring |
+| **DNS & Infrastructure Intelligence** | DNS A/AAAA/CNAME/NS/MX, website reachability, HTTP/HTTPS, redirect chains, TLS/SSL validity and infrastructure anomalies |
+| **Website & Security Intelligence** | Google Web Risk threat signals, suspicious URLs, malware/phishing reputation indicators, security and configuration diagnostics |
+| **Email & Reputation Intelligence** | MX and mail routing, SPF/DKIM/DMARC, SMTP and deliverability investigation, IP/domain reputation and blacklist analysis |
+| **Website Technology & Quality** | CMS/technology signals, vulnerability indicators, performance, discoverability and SEO-related technical signals |
+| **Evidence & Verification** | Check history, evidence records, confidence, technical context and human verification before conclusions |
+| **Lead & Company Intelligence** | Public business contact enrichment, company matching, data provenance and deduplication |
+| **Opportunity Intelligence** | Signal classification, prioritization, scoring, reviewed opportunities and service-fit assessment |
+| **Commercial Engine** | Service mapping, proposals, offers, PDF outputs and remediation/migration recommendations |
+| **Email Studio & Outreach** | Templates, review-controlled communication, follow-ups and outreach workflows |
+| **Automation & Administration** | Controlled discovery, rate limits, queues, scheduled checks, imports, dashboards and operational administration |
+| **Public Domain Analysis (planned)** | Customer-submitted domain, understandable report, verified repair/security/migration offer or no-issue notification |
 
-**MK:** FLOWING опфаќа Google Web Risk сигнали за злонамерни URL адреси, phishing и несакан софтвер, како и DNS, MX, HTTP/HTTPS, SSL/TLS и технички докази. Следните области за проширување се IP blacklist и репутација, SPF/DKIM/DMARC, SMTP функционалност, подетални проверки за заразени веб-страници, CMS/WordPress и перформанси. **MX запис не гарантира успешна испорака на е-пошта; Web Risk проверка не е серверски антивирус.**
+**Implementation note:** The capability map covers FLOWING's broader product architecture and development scope. Modules and individual checks are at different stages of implementation; this table is **not** a claim that every item is already available to public users. Current access remains private.
+
+### Вистинскиот опфат на FLOWING
+
+FLOWING е **платформа за интелигенција за домени, веб-страници, инфраструктура и деловни можности** — од откривање домен до проверена препорака и реално решение.
+
+**Главни целини:** откривање и увоз на домени (MARNET, zone files, CT извори), животен циклус и следење промени, DNS/HTTP/TLS, Google Web Risk и безбедносни сигнали, email и IP репутација, CMS/технички показатели, историја на докази, збогатување деловни контакти, анализа и рангирање можности, комерцијални понуди, Email Studio, автоматизација и администрација.
+
+**Планиран јавен слој:** корисникот внесува домен, добива разбирлива анализа и — само кога има проверена потреба — понуда за поправка, дополнителна заштита или миграција. Ако нема проблем, добива информативен резултат без измислен ризик.
+
+**Статус:** дел од целините се оперативни, други се во развој или бараат потврда на продукциската имплементација. Присуството во мапата не значи дека секоја проверка е јавно достапна.
 
 ---
 
