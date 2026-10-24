@@ -60,19 +60,22 @@ FLOWING е **платформа за интелигенција за домен�
 
 **FLOWING is not a public directory of domain owners.** Its focus is the technical condition of websites and the responsible interpretation of findings — not making private business records public.
 
-### What FLOWING analyzes
+### What FLOWING checks
 
-| Area | Focus |
-|---|---|
-| **Domain discovery & context** | Domain-related discovery signals and domain records used for technical assessment |
-| **DNS health** | A, AAAA, CNAME, NS and MX resolution and configuration indicators |
-| **Website availability** | HTTP/HTTPS reachability, responses and redirect behavior |
-| **TLS / SSL certificates** | Certificate validity, expiration and hostname mismatch signals |
-| **Technical evidence** | Findings with context, history and verifiable observations |
-| **Opportunity review** | Human assessment of whether an issue warrants a technical recommendation |
-| **Action planning** | Repair, hardening, infrastructure improvement or migration recommendations when justified |
+- **Virus and malware scanning:** compromised-site and malicious URL signals, suspicious content and redirects.
+- **Google Safe Browsing / Web Risk:** malware, phishing, social-engineering and unwanted-software warnings; potential Google unsafe-site flags.
+- **IP blocklists and IP reputation:** server and mail IP blocking and reputation indicators.
+- **Domain reputation and blocklists:** domain-level warning and blacklist signals.
+- **Email security and deliverability:** MX routing, SPF, DKIM, DMARC, SMTP, sender reputation and delivery issues.
+- **DNS and infrastructure:** A/AAAA/CNAME/NS/MX, resolution anomalies and infrastructure changes.
+- **Website health:** HTTP/HTTPS, uptime signals, response errors and redirects.
+- **SSL/TLS:** certificate expiration, hostname mismatch and certificate issues.
+- **Website security and technology:** configuration, CMS/technology and exposure indicators.
+- **Domain intelligence:** discovery, imports, registry context, deduplication and history.
+- **Evidence and triage:** historical checks, verification, severity, review and prioritization.
+- **Remediation and offers:** security fixes, email configuration, hardening, hosting and migration proposals.
 
-A detected signal is **not automatically a confirmed security breach**. Checks may be affected by temporary outages, server policies or incomplete external visibility; findings should be verified before any claim or outreach.
+FLOWING connects technical signals to evidence-backed recommendations. A reputation hit is not by itself proof of active infection; a clean result is not a security guarantee.
 
 ### The evidence-to-action workflow
 
@@ -125,17 +128,23 @@ FLOWING не служи само да покаже дека некоја веб-
 
 ### Што проверува платформата?
 
-**DNS конфигурација:** основни DNS записи и сигнали за неправилности.
+FLOWING има повеќеслоен систем за проверка на домени, веб-страници, инфраструктура, безбедност и email репутација:
 
-**Достапност на веб-страница:** HTTP и HTTPS одговори, пренасочувања и техничка достапност.
+- **Вируси и malware scanner:** сигнали за заразени или компромитирани веб-страници, злонамерна содржина, сомнителни URL адреси и пренасочувања.
+- **Google Safe Browsing / Google Web Risk:** дали Google има означено URL како опасен поради malware, phishing, social engineering или несакан софтвер; дали постои сигнал за Google блокирање.
+- **IP blacklist / IP block:** дали серверската или mail IP адреса е блокирана или означена на релевантни репутациски и блок-листи.
+- **Domain blacklist и репутација:** сигнали за ризик, блокирање и негативна репутација на доменот.
+- **Email security и доставливост:** MX записи, mail routing, SPF, DKIM, DMARC, SMTP, репутација на испраќачот и потенцијални проблеми со испорака.
+- **DNS конфигурација:** A, AAAA, CNAME, NS, MX, резолуција, неправилности и инфраструктурни промени.
+- **Website availability:** HTTP/HTTPS статус, достапност, редиректи, неочекувани пренасочувања и технички грешки.
+- **SSL/TLS security:** истечени сертификати, приближување до истек, hostname mismatch и проблеми со сертификатите.
+- **Website security и технички ризици:** изложени конфигурациски и CMS/technology сигнали, потенцијални слабости и безбедносни аномалии.
+- **Domain intelligence:** откривање, увоз, дедупликација, регистарски и инфраструктурни сигнали, промени и историја.
+- **Технички докази и историја:** евиденција на проверки, извори, сигнали, потврди и повторна проверка.
+- **Анализа на проблеми и приоритети:** разликување меѓу безбедносен проблем, конфигурациски проблем, репутациски ризик и здрав домен.
+- **Решенија и понуди:** поправка на технички проблем, отстранување ризици, подобрување на заштита, email конфигурација, хостинг и миграција.
 
-**SSL/TLS сертификати:** важност, истекување и несовпаѓање со името на доменот.
-
-**Технички докази:** наоди и историја што овозможуваат проверка пред заклучок.
-
-**Проценка на проблемите:** разликување меѓу сигнал, потврден проблем и состојба без потреба од интервенција.
-
-**Препораки:** можни поправки, дополнителна заштита, одржување или миграција кога за тоа постои техничка причина.
+**FLOWING не завршува со дијагнозата:** анализата продолжува во проверка на докази, проценка, препорака, понуда и следење на решението. Сигнал од репутациска листа не е автоматски доказ за активна инфекција; негативен резултат не гарантира дека нема ризик.
 
 ### Како ќе функционира идната јавна услуга?
 
