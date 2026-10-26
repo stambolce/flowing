@@ -18,6 +18,8 @@
 
 ---
 
+[**Македонски — посебна продуктна презентација**](README.mk.md)
+
 ## FLOWING Platform / Платформски можности
 
 FLOWING is a **domain-to-decision intelligence platform**: discovery, technical inspection, evidence, risk assessment, business intelligence and practical remediation. Security and email diagnostics are **two capabilities within a much broader platform**, not the product's definition.
