@@ -1,30 +1,20 @@
-[Македонски](README.mk.md) · [English](README.md) · [Shqip](README.sq.md) · [Türkçe](README.tr.md)
-
 <div align="center">
 
-# F L O W I N G
+# Flowing
 
+[Македонски](README.mk.md) · [English](README.md) · [Shqip](README.sq.md) · [Türkçe](README.tr.md)
 
+<img src="assets/flowing-hero.svg" alt="Flowing — ürün görsel sunumu" width="100%" />
 
-<a href="https://flowing.mk"><img src="assets/flowing-hero.svg" alt="FLOWING domain intelligence: from domain to evidence, from evidence to action" width="100%" /></a>
+**Alan adından kanıta dayalı karara.**
 
 [![Website](https://img.shields.io/badge/FLOWING.MK-OFFICIAL_WEBSITE-8FB5FF?style=for-the-badge&labelColor=111827)](https://flowing.mk)
 [![Developer](https://img.shields.io/badge/BUILT_BY-PROCESS_IN-FFFFFF?style=for-the-badge&labelColor=111827)](https://processin.mk)
 [![Infrastructure](https://img.shields.io/badge/INFRASTRUCTURE-INHOST-8FB5FF?style=for-the-badge&labelColor=111827)](https://inhost.mk)
 
-
-
-
-
-### Alan adından kanıta dayalı karara.
-
-**Alan adından kanıta dayalı karara.**
+**LIVE**
 
 </div>
-
----
-
-
 
 ## FLOWING platformu
 
@@ -94,7 +84,7 @@ Gelecekteki hizmet; site sahipleri, DNS/SSL/erişim sorunu olan işletmeler, alt
 |---|---|
 | Ürün | FLOWING |
 | Resmî site | [flowing.mk](https://flowing.mk) |
-| Kategori | Alan adı istihbaratı ve site sağlığı |
+| Kategori | Dahili alan adı, DNS, SSL ve iş fırsatı istihbaratı |
 | Durum | LIVE |
 | Geliştirici | [PROCESS IN](https://processin.mk) |
 | Portföy | [PROCESS IN](https://github.com/stambolce/process-in) |
